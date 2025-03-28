@@ -1,0 +1,111 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8b8b8;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Main Container */
+  .container {
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+  }
+  
+  /* Left Section */
+  .left-section {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .illustration {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .left-section p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Right Section */
+  .right-section {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+  }
+  
+  /* Progress Bar */
+  .progress-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background: gray;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
+  .dot.active {
+    background: teal;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 60px;
+  }
+  
+  /* Note */
+  .note {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 10px;
+  }
+  
+  /* Button */
+  button {
+    background: teal;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: darkslategray;
+  }
+  
