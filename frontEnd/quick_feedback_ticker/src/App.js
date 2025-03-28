@@ -6,8 +6,7 @@ import "./styles.css";
 const App = () => {
   return (
     <div className="container">
-      <LeftSection />
-      <RightSection />
+      <RightSection/>
     </div>
   );
 };
